@@ -1,0 +1,15 @@
+# Secrets - never commit
+.env
+*.env
+!.env.example
+!**/.env.example
+
+# Rust
+backend/target/
+
+# Node
+ui/node_modules/
+ui/dist/
+
+# OS
+.DS_Store
